@@ -10,7 +10,7 @@ This part of the flashcard app includes a flashcard that displays the question a
 ### App Walk-though
 `TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="https://recordit.co/Uaa1Cefomr" width=200><br>
+<img src="http://g.recordit.co/Uaa1Cefomr.gif" width=200><br>
 
 
 
