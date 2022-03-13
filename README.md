@@ -8,7 +8,6 @@ Added several features to our flashcards app
 
 <img src="http://g.recordit.co/YpN93ESr79.gif" width=200><br>
 
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
 ## Required
 - [x] User can open the creation screen
@@ -28,7 +27,7 @@ Flashcard App
 This part of the flashcard app includes a flashcard that displays the question and displays the answer when the user taps the card.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
+
 
 <img src="http://g.recordit.co/Uaa1Cefomr.gif" width=200><br>
 
