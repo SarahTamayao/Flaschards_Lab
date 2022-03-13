@@ -21,7 +21,6 @@ Added several features to our flashcards app
 - [x] User can add multiple choice answers in the creation screen
 Flashcard App
 
-📝 `NOTE:` Paste the README templates for each subsequent lab here at the top, (i.e. lab 2, 3, 4). This will show a history of your development process including which users stories you completed and how your app looked and functioned at each step.
 
 ## Lab 1
 
