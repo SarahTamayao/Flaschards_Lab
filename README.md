@@ -6,7 +6,7 @@ Added several features to our flashcards app
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/YpN93ESr79.gif" width=200><br>
+<img src="http://g.recordit.co/tedMkYgAXL.gif" width=200><br>
 
 
 ## Required
