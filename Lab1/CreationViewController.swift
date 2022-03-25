@@ -18,12 +18,16 @@ class CreationViewController: UIViewController {
     
     var initialQuestion: String?
     var initialAnswer: String?
+    var initExtraAnswer1: String?
+    var initExtraAnswer2: String?
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         questionTextField.text = initialQuestion
         answerTextField.text = initialAnswer
+        ExtraAnswer1.text = initExtraAnswer1
+        ExtraAnswer2.text = initExtraAnswer2
     }
     
 
@@ -36,7 +40,7 @@ class CreationViewController: UIViewController {
         let questionText = questionTextField.text
         let answerText = answerTextField.text
         let extra1 = ExtraAnswer1.text
-        let extra2 = ExtraAnswer2.text
+        let extra2 = ExtraAnswer2.text!
         
         let alert = UIAlertController(title: "Missing text", message: "You need to have a question and an answer.", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .default)
@@ -47,7 +51,11 @@ class CreationViewController: UIViewController {
            
         }else{
             //update flashcards
-            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!, extraAnswer1: extra1, extraAnswer2: extra2)
+            var isExisting = false
+            if initialAnswer != nil{
+                isExisting = true
+            }
+            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!, extraAnswer1: extra1!, extraAnswer2: extra2, isExisting: isExisting)
             
             dismiss(animated: true)
         }
